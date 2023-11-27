@@ -1,0 +1,21 @@
+/* reset space */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: aquamarine;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul{
+  display: flex; /*membuat ul menjadi flex container */
+  list-style: none;
+}
+
+header ul li{
+  padding: 0 10px;
+}
